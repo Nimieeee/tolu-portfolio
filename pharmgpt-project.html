@@ -108,10 +108,10 @@
                             <div class="mb-12">
                                 <h2 class="text-3xl font-bold text-gray-900 mb-6">Project Overview</h2>
                                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                                    PharmGPT is an advanced AI-powered pharmacology assistant that provides comprehensive drug information, mechanism of action analysis, and clinical guidance. The application features sophisticated conversation management, document processing capabilities, and both fast and detailed response modes for pharmaceutical queries.
+                                    PharmGPT is a sophisticated Streamlit-based chatbot application designed to help students, researchers, and healthcare professionals with pharmaceutical and medical queries. It features RAG (Retrieval-Augmented Generation) capabilities, multi-conversation support, and specialized pharmacology expertise.
                                 </p>
                                 <p class="text-lg text-gray-700 leading-relaxed">
-                                    Built with a focus on accuracy and usability, PharmGPT serves as a reliable resource for pharmaceutical research and clinical decision support, combining the power of large language models with specialized pharmaceutical knowledge.
+                                    Built with a focus on accuracy and usability, PharmGPT combines the power of large language models with specialized pharmaceutical knowledge, offering both fast and detailed response modes to serve as a reliable resource for pharmaceutical research and clinical decision support.
                                 </p>
                             </div>
 
@@ -158,19 +158,8 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                                             </svg>
                                             <div>
-                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">AI-Powered Analysis</h3>
-                                                <p class="text-gray-700 text-sm">Advanced language models provide comprehensive drug information and mechanism analysis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="bg-white p-5 rounded-lg border border-gray-200">
-                                        <div class="flex items-start gap-2 mb-2">
-                                            <svg style="width: 18px; height: 18px" class=" text-primary flex-shrink-0 style="margin-top: 2px"" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-                                            </svg>
-                                            <div>
-                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Conversation Management</h3>
-                                                <p class="text-gray-700 text-sm">Persistent chat history and context-aware responses for seamless interactions.</p>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Pharmacology Expertise</h3>
+                                                <p class="text-gray-700 text-sm">Specialized system prompts for pharmaceutical and medical queries with professional-grade accuracy.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,19 +169,52 @@
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
                                             </svg>
                                             <div>
-                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Document Processing</h3>
-                                                <p class="text-gray-700 text-sm">Upload and analyze pharmaceutical documents for enhanced query responses.</p>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">RAG System</h3>
+                                                <p class="text-gray-700 text-sm">Upload and query PDF, DOCX, TXT, and MD documents with vector search capabilities.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="bg-white p-5 rounded-lg border border-gray-200">
                                         <div class="flex items-start gap-2 mb-2">
                                             <svg style="width: 18px; height: 18px" class=" text-primary flex-shrink-0 style="margin-top: 2px"" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
                                             </svg>
                                             <div>
-                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Dual Response Modes</h3>
-                                                <p class="text-gray-700 text-sm">Choose between fast answers and detailed pharmaceutical analysis based on your needs.</p>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Multi-Conversation Support</h3>
+                                                <p class="text-gray-700 text-sm">Manage multiple chat sessions with separate knowledge bases and persistent storage.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white p-5 rounded-lg border border-gray-200">
+                                        <div class="flex items-start gap-2 mb-2">
+                                            <svg style="width: 18px; height: 18px" class=" text-primary flex-shrink-0 style="margin-top: 2px"" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                                            </svg>
+                                            <div>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Modern UI</h3>
+                                                <p class="text-gray-700 text-sm">Dark mode interface with responsive design and accessibility features for all devices.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white p-5 rounded-lg border border-gray-200">
+                                        <div class="flex items-start gap-2 mb-2">
+                                            <svg style="width: 18px; height: 18px" class=" text-primary flex-shrink-0 style="margin-top: 2px"" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/>
+                                            </svg>
+                                            <div>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Persistent Storage</h3>
+                                                <p class="text-gray-700 text-sm">Supabase backend for conversations, messages, and document chunks with vector search.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white p-5 rounded-lg border border-gray-200">
+                                        <div class="flex items-start gap-2 mb-2">
+                                            <svg style="width: 18px; height: 18px" class=" text-primary flex-shrink-0 style="margin-top: 2px"" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                                            </svg>
+                                            <div>
+                                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Vector Search</h3>
+                                                <p class="text-gray-700 text-sm">Semantic document search using sentence transformers for accurate information retrieval.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -201,24 +223,142 @@
 
                             <!-- NAPLEX Evaluation -->
                             <div class="mb-12">
-                                <h2 class="text-3xl font-bold text-gray-900 mb-6">NAPLEX Evaluation Performance</h2>
+                                <h2 class="text-3xl font-bold text-gray-900 mb-6">Comprehensive Hallucination Analysis</h2>
                                 <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                                    PharmGPT was rigorously evaluated using questions from the North American Pharmacist Licensure Examination (NAPLEX), the standardized examination used to assess pharmacist competency. This evaluation demonstrates the system's ability to provide accurate, clinically relevant pharmaceutical information at a professional level.
+                                    PharmGPT was rigorously evaluated using 137 questions from the North American Pharmacist Licensure Examination (NAPLEX), comparing performance against leading AI models including ChatGPT and Grok. The evaluation focused on hallucination rates, accuracy, and confidence calibration.
                                 </p>
                                 
-                                <div class="mb-6">
+                                <div class="mb-8">
                                     <img src="assets/images/projects/pharmgpt/NAPLEX evaluation.png" alt="PharmGPT NAPLEX Evaluation Results" class="w-full rounded-lg shadow-lg">
-                                    <p class="text-gray-600 text-center mt-3">Performance evaluation on NAPLEX pharmaceutical examination questions</p>
+                                    <p class="text-gray-600 text-center mt-3">Comparative hallucination analysis across 6 AI models on NAPLEX questions</p>
                                 </div>
-                                
-                                <div class="bg-green-50 p-6 rounded-lg">
-                                    <h3 class="text-xl font-semibold text-green-900 mb-4">Evaluation Highlights:</h3>
+
+                                <!-- Model Rankings -->
+                                <div class="bg-blue-50 p-6 rounded-lg mb-6">
+                                    <h3 class="text-xl font-semibold text-blue-900 mb-4">🏆 Model Rankings (by Hallucination Rate - Lower is Better)</h3>
+                                    <div class="space-y-2 text-blue-800">
+                                        <div class="flex justify-between items-center">
+                                            <span>1. Grok Expert</span>
+                                            <span class="font-semibold">10.22% 🥇</span>
+                                        </div>
+                                        <div class="flex justify-between items-center">
+                                            <span>2. Grok Fast</span>
+                                            <span class="font-semibold">16.79% 🥈</span>
+                                        </div>
+                                        <div class="flex justify-between items-center bg-blue-100 px-3 py-2 rounded">
+                                            <span class="font-semibold">3. PharmGPT Detailed Mode</span>
+                                            <span class="font-semibold">21.17% 🥉</span>
+                                        </div>
+                                        <div class="flex justify-between items-center">
+                                            <span>4. ChatGPT Non-Thinking</span>
+                                            <span class="font-semibold">22.63%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center">
+                                            <span>5. ChatGPT Thinking</span>
+                                            <span class="font-semibold">23.36%</span>
+                                        </div>
+                                        <div class="flex justify-between items-center bg-blue-100 px-3 py-2 rounded">
+                                            <span class="font-semibold">6. PharmGPT Fast Mode</span>
+                                            <span class="font-semibold">29.20%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Detailed Comparison -->
+                                <div class="bg-gray-50 p-6 rounded-lg mb-6">
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Detailed Comparative Analysis</h3>
+                                    <div class="overflow-x-auto">
+                                        <table class="w-full text-sm">
+                                            <thead class="bg-gray-200">
+                                                <tr>
+                                                    <th class="px-4 py-2 text-left">Model</th>
+                                                    <th class="px-4 py-2 text-center">Hallucination Rate</th>
+                                                    <th class="px-4 py-2 text-center">Complete Wrong</th>
+                                                    <th class="px-4 py-2 text-center">Partial Hall.</th>
+                                                    <th class="px-4 py-2 text-center">Avg Severity</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="text-gray-700">
+                                                <tr class="border-b">
+                                                    <td class="px-4 py-2">Grok Expert</td>
+                                                    <td class="px-4 py-2 text-center">10.22%</td>
+                                                    <td class="px-4 py-2 text-center">10</td>
+                                                    <td class="px-4 py-2 text-center">4</td>
+                                                    <td class="px-4 py-2 text-center">0.282</td>
+                                                </tr>
+                                                <tr class="border-b">
+                                                    <td class="px-4 py-2">Grok Fast</td>
+                                                    <td class="px-4 py-2 text-center">16.79%</td>
+                                                    <td class="px-4 py-2 text-center">13</td>
+                                                    <td class="px-4 py-2 text-center">10</td>
+                                                    <td class="px-4 py-2 text-center">0.398</td>
+                                                </tr>
+                                                <tr class="border-b bg-blue-50 font-semibold">
+                                                    <td class="px-4 py-2">PharmGPT Detailed</td>
+                                                    <td class="px-4 py-2 text-center">21.17%</td>
+                                                    <td class="px-4 py-2 text-center">21</td>
+                                                    <td class="px-4 py-2 text-center">8</td>
+                                                    <td class="px-4 py-2 text-center">0.566</td>
+                                                </tr>
+                                                <tr class="border-b">
+                                                    <td class="px-4 py-2">ChatGPT Non-Thinking</td>
+                                                    <td class="px-4 py-2 text-center">22.63%</td>
+                                                    <td class="px-4 py-2 text-center">23</td>
+                                                    <td class="px-4 py-2 text-center">8</td>
+                                                    <td class="px-4 py-2 text-center">0.600</td>
+                                                </tr>
+                                                <tr class="border-b">
+                                                    <td class="px-4 py-2">ChatGPT Thinking</td>
+                                                    <td class="px-4 py-2 text-center">23.36%</td>
+                                                    <td class="px-4 py-2 text-center">24</td>
+                                                    <td class="px-4 py-2 text-center">8</td>
+                                                    <td class="px-4 py-2 text-center">0.632</td>
+                                                </tr>
+                                                <tr class="bg-blue-50 font-semibold">
+                                                    <td class="px-4 py-2">PharmGPT Fast</td>
+                                                    <td class="px-4 py-2 text-center">29.20%</td>
+                                                    <td class="px-4 py-2 text-center">34</td>
+                                                    <td class="px-4 py-2 text-center">6</td>
+                                                    <td class="px-4 py-2 text-center">0.860</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- Key Insights -->
+                                <div class="bg-green-50 p-6 rounded-lg mb-6">
+                                    <h3 class="text-xl font-semibold text-green-900 mb-4">✅ Key Performance Insights</h3>
                                     <ul class="list-disc list-inside text-green-800 space-y-2">
-                                        <li>Tested on authentic NAPLEX-style questions covering drug mechanisms, interactions, and clinical applications</li>
-                                        <li>Demonstrated strong performance in pharmacology, pharmacokinetics, and therapeutic decision-making</li>
-                                        <li>Validated accuracy in providing mechanism of action explanations and clinical guidance</li>
-                                        <li>Proven capability to handle complex pharmaceutical queries at professional examination standards</li>
+                                        <li><strong>Detailed Mode ranks #3/6</strong> - competitive performance against leading AI models</li>
+                                        <li><strong>8.03% improvement</strong> from Fast to Detailed Mode demonstrates effective optimization</li>
+                                        <li><strong>Better than ChatGPT average</strong> - outperforms both ChatGPT variants</li>
+                                        <li><strong>Tested on 137 NAPLEX questions</strong> covering drug mechanisms, interactions, and clinical applications</li>
                                     </ul>
+                                </div>
+
+                                <!-- Competitive Positioning -->
+                                <div class="bg-purple-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-semibold text-purple-900 mb-4">Competitive Analysis</h3>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-purple-800">
+                                        <div>
+                                            <h4 class="font-semibold mb-2">Detailed Mode Performance:</h4>
+                                            <ul class="text-sm space-y-1">
+                                                <li>• vs Best Model (Grok Expert): +10.95%</li>
+                                                <li>• vs Worst Model (Fast Mode): -8.03%</li>
+                                                <li>• vs ChatGPT Average: -1.82%</li>
+                                                <li>• vs Grok Average: +7.66%</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold mb-2">Model Group Averages:</h4>
+                                            <ul class="text-sm space-y-1">
+                                                <li>• PharmGPT Models: 25.18%</li>
+                                                <li>• ChatGPT Models: 22.99%</li>
+                                                <li>• Grok Models: 13.50%</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -250,10 +390,10 @@
                                     <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">RAG</span>
                                     <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Streamlit</span>
                                     <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
-                                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">AI/ML</span>
-                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">NLP</span>
-                                    <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">Document Processing</span>
-                                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">Conversation Management</span>
+                                    <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Supabase</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">Vector Search</span>
+                                    <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-medium">Sentence Transformers</span>
+                                    <span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm font-medium">PDF/DOCX Processing</span>
                                     <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">Streamlit Cloud</span>
                                 </div>
                             </div>
