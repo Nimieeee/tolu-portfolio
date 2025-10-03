@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Digital Transformation Initiative",
+      "description": "Led a comprehensive digital transformation project for a Fortune 500 company, modernizing legacy systems and improving operational efficiency.",
+      "longDescription": "This ambitious digital transformation initiative involved migrating legacy systems to cloud-based solutions, implementing new workflow automation tools, and training over 500 employees on new processes. The project resulted in a 40% increase in operational efficiency and $2.3M in annual cost savings.",
+      "technologies": ["Salesforce", "Microsoft Azure", "Power BI", "Agile", "Scrum"],
+      "duration": "18 months",
+      "teamSize": 12,
+      "role": "Senior Project Manager",
+      "outcomes": [
+        "40% increase in operational efficiency",
+        "$2.3M annual cost savings",
+        "500+ employees successfully trained",
+        "Zero downtime during migration"
+      ],
+      "images": [
+        "assets/images/projects/digital-transformation-1.svg",
+        "assets/images/projects/digital-transformation-2.svg",
+        "assets/images/projects/digital-transformation-3.svg"
+      ],
+      "liveUrl": "https://example.com/case-study-1",
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "Mobile App Development",
+      "description": "Managed the development of a customer-facing mobile application from concept to launch, coordinating cross-functional teams.",
+      "longDescription": "Oversaw the complete development lifecycle of a mobile application serving 50,000+ users. Coordinated between design, development, QA, and marketing teams to ensure on-time delivery within budget. The app achieved a 4.8-star rating and generated $500K in first-year revenue.",
+      "technologies": ["React Native", "Node.js", "MongoDB", "AWS", "Jira"],
+      "duration": "12 months",
+      "teamSize": 8,
+      "role": "Project Manager",
+      "outcomes": [
+        "50,000+ active users within 6 months",
+        "4.8-star app store rating",
+        "$500K first-year revenue",
+        "Delivered 2 weeks ahead of schedule"
+      ],
+      "images": [
+        "assets/images/projects/mobile-app-1.svg",
+        "assets/images/projects/mobile-app-2.svg"
+      ],
+      "repositoryUrl": "https://github.com/example/mobile-app",
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "Supply Chain Optimization",
+      "description": "Streamlined supply chain operations for a manufacturing company, reducing costs and improving delivery times.",
+      "longDescription": "Implemented a comprehensive supply chain optimization strategy that involved vendor consolidation, inventory management improvements, and logistics automation. The project reduced supply chain costs by 25% and improved delivery times by 30%.",
+      "technologies": ["SAP", "Tableau", "Six Sigma", "Lean Manufacturing"],
+      "duration": "10 months",
+      "teamSize": 6,
+      "role": "Project Manager",
+      "outcomes": [
+        "25% reduction in supply chain costs",
+        "30% improvement in delivery times",
+        "Vendor base consolidated by 40%",
+        "Inventory turnover increased by 35%"
+      ],
+      "images": [
+        "assets/images/projects/supply-chain-1.svg"
+      ],
+      "featured": false
+    }
+  ]
+}

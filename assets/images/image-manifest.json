@@ -1,0 +1,47 @@
+{
+  "generated": "2024-12-19T10:30:00.000Z",
+  "optimized": true,
+  "fallbacks": {
+    "default": "assets/images/fallbacks/default-fallback.svg",
+    "technical-diagram": "assets/images/fallbacks/technical-diagram-fallback.svg",
+    "research-plot": "assets/images/fallbacks/research-plot-fallback.svg",
+    "project-screenshot": "assets/images/fallbacks/project-screenshot-fallback.svg"
+  },
+  "categories": {
+    "diagrams": [
+      "assets/images/diagrams/drug-discovery-workflow.svg",
+      "assets/images/diagrams/ml-pipeline-architecture.svg",
+      "assets/images/diagrams/cms-integration-flow.svg"
+    ],
+    "wireframes": [
+      "assets/images/wireframes/autodescribe-dashboard.svg",
+      "assets/images/wireframes/autodescribe-workflow.svg"
+    ],
+    "screenshots": [
+      "assets/images/projects/digital-transformation-1.svg",
+      "assets/images/projects/digital-transformation-2.svg",
+      "assets/images/projects/digital-transformation-3.svg",
+      "assets/images/projects/mobile-app-1.svg",
+      "assets/images/projects/mobile-app-2.svg",
+      "assets/images/projects/supply-chain-1.svg"
+    ],
+    "profile": [
+      "assets/images/profile/professional-headshot.jpg"
+    ]
+  },
+  "optimization": {
+    "lazyLoading": true,
+    "fallbackHandling": true,
+    "responsiveImages": true,
+    "compressionQuality": 85,
+    "formats": ["svg", "jpg", "png", "webp"]
+  },
+  "performance": {
+    "preloadCritical": [
+      "assets/images/profile/professional-headshot.jpg",
+      "assets/images/fallback-image.svg"
+    ],
+    "lazyLoadThreshold": "50px",
+    "compressionEnabled": true
+  }
+}

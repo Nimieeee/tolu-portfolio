@@ -1,0 +1,15 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="20" y="20" width="360" height="40" fill="#7c3aed" rx="4"/>
+  <text x="200" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">PharmGPT Chat Interface</text>
+  <rect x="30" y="80" width="250" height="30" fill="#e0f2fe" stroke="#0284c7" stroke-width="1" rx="15"/>
+  <text x="40" y="100" fill="#0284c7" font-family="Arial, sans-serif" font-size="11">What are the side effects of aspirin?</text>
+  <rect x="120" y="120" width="250" height="50" fill="#f0fdf4" stroke="#16a34a" stroke-width="1" rx="15"/>
+  <text x="130" y="135" fill="#16a34a" font-family="Arial, sans-serif" font-size="10">Aspirin side effects include:</text>
+  <text x="130" y="150" fill="#16a34a" font-family="Arial, sans-serif" font-size="10">• Gastrointestinal irritation</text>
+  <text x="130" y="165" fill="#16a34a" font-family="Arial, sans-serif" font-size="10">• Increased bleeding risk</text>
+  <rect x="30" y="190" width="280" height="30" fill="#e0f2fe" stroke="#0284c7" stroke-width="1" rx="15"/>
+  <text x="40" y="210" fill="#0284c7" font-family="Arial, sans-serif" font-size="11">Tell me about drug interactions with warfarin</text>
+  <rect x="20" y="240" width="360" height="40" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1" rx="4"/>
+  <text x="30" y="265" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">Type your pharmaceutical question...</text>
+</svg>

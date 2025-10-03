@@ -1,0 +1,44 @@
+# GitHub Pages Configuration
+title: "Portfolio - Project Management Professional"
+description: "Professional portfolio showcasing project management expertise, completed projects, and professional achievements."
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - .git/
+  - node_modules/
+  - package*.json
+
+# Include files that start with underscores
+include:
+  - _config.yml
+
+# SEO settings
+author: "Portfolio Owner"
+twitter:
+  username: ""
+social:
+  name: "Portfolio Owner"
+  links:
+    - ""
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Custom variables
+portfolio:
+  name: "Portfolio Owner"
+  title: "Project Management Professional"
+  email: ""
+  phone: ""
+  location: ""

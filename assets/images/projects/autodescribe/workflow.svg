@@ -1,0 +1,20 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="200" y="25" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AutoDescribe Workflow</text>
+  <circle cx="80" cy="80" r="25" fill="#3b82f6"/>
+  <text x="80" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Input</text>
+  <circle cx="200" cy="80" r="25" fill="#10b981"/>
+  <text x="200" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">RAG</text>
+  <circle cx="320" cy="80" r="25" fill="#f59e0b"/>
+  <text x="320" y="85" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10">Review</text>
+  <path d="M105 80 L175 80" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M225 80 L295 80" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <text x="80" y="130" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">Product Data</text>
+  <text x="200" y="130" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">AI Generation</text>
+  <text x="320" y="130" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="10">Human Validation</text>
+</svg>

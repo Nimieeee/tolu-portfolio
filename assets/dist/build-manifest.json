@@ -1,0 +1,29 @@
+{
+  "generated": "2024-12-19T12:00:00.000Z",
+  "version": "1.0.0",
+  "files": {
+    "css": {
+      "combined": "assets/dist/combined.min.css",
+      "individual": [
+        "assets/dist/main.min.css",
+        "assets/dist/responsive.min.css",
+        "assets/dist/components.min.css"
+      ]
+    },
+    "js": {
+      "combined": "assets/dist/combined.min.js",
+      "individual": [
+        "assets/dist/about.min.js",
+        "assets/dist/image-optimizer.min.js",
+        "assets/dist/technical-artifacts.min.js",
+        "assets/dist/publications.min.js",
+        "assets/dist/sw-register.min.js",
+        "assets/dist/projects.min.js",
+        "assets/dist/main.min.js",
+        "assets/dist/performance.min.js",
+        "assets/dist/accessibility.min.js",
+        "assets/dist/contact.min.js"
+      ]
+    }
+  }
+}

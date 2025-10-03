@@ -1,0 +1,226 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="autoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cmsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="apiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    AutoDescribe CMS Integration Flow
+  </text>
+  <text x="500" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">
+    Seamless integration with popular Content Management Systems
+  </text>
+  
+  <!-- AutoDescribe Core System -->
+  <rect x="400" y="100" width="200" height="120" rx="15" fill="url(#autoGrad)" stroke="#1e40af" stroke-width="3"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    AutoDescribe
+  </text>
+  <text x="500" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    AI Engine
+  </text>
+  <text x="500" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Content Generation
+  </text>
+  <text x="500" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Quality Assurance
+  </text>
+  <text x="500" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Multi-format Output
+  </text>
+  
+  <!-- API Gateway -->
+  <rect x="425" y="250" width="150" height="60" rx="10" fill="url(#apiGrad)" stroke="#d97706" stroke-width="2"/>
+  <text x="500" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    REST API Gateway
+  </text>
+  <text x="500" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    Authentication • Rate Limiting • Monitoring
+  </text>
+  
+  <!-- CMS Platforms -->
+  
+  <!-- Shopify -->
+  <rect x="50" y="380" width="150" height="100" rx="10" fill="url(#cmsGrad)" stroke="#047857" stroke-width="2"/>
+  <text x="125" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    Shopify
+  </text>
+  <text x="125" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Product Catalog Sync
+  </text>
+  <text x="125" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Bulk Description Updates
+  </text>
+  <text x="125" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Webhook Integration
+  </text>
+  <text x="125" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Real-time Sync</text>
+  
+  <!-- WooCommerce -->
+  <rect x="220" y="380" width="150" height="100" rx="10" fill="url(#cmsGrad)" stroke="#047857" stroke-width="2"/>
+  <text x="295" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    WooCommerce
+  </text>
+  <text x="295" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • WordPress Plugin
+  </text>
+  <text x="295" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Custom Field Mapping
+  </text>
+  <text x="295" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Category-based Rules
+  </text>
+  <text x="295" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Batch Processing</text>
+  
+  <!-- Magento -->
+  <rect x="630" y="380" width="150" height="100" rx="10" fill="url(#cmsGrad)" stroke="#047857" stroke-width="2"/>
+  <text x="705" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    Magento
+  </text>
+  <text x="705" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Extension Module
+  </text>
+  <text x="705" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Multi-store Support
+  </text>
+  <text x="705" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Attribute Management
+  </text>
+  <text x="705" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Admin Dashboard</text>
+  
+  <!-- BigCommerce -->
+  <rect x="800" y="380" width="150" height="100" rx="10" fill="url(#cmsGrad)" stroke="#047857" stroke-width="2"/>
+  <text x="875" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+    BigCommerce
+  </text>
+  <text x="875" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Native App Integration
+  </text>
+  <text x="875" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Storefront API
+  </text>
+  <text x="875" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Automated Workflows
+  </text>
+  <text x="875" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    • Performance Metrics</text>
+  
+  <!-- Integration Flow Steps -->
+  <rect x="50" y="520" width="900" height="150" fill="white" stroke="#e5e7eb" stroke-width="2" rx="15"/>
+  <text x="500" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">
+    Integration Process Flow
+  </text>
+  
+  <!-- Step boxes -->
+  <rect x="80" y="560" width="120" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="8"/>
+  <text x="140" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0c4a6e">1. Authentication</text>
+  <text x="140" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">API Key Setup</text>
+  <text x="140" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">OAuth Configuration</text>
+  <text x="140" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#0369a1">Permission Validation</text>
+  
+  <rect x="220" y="560" width="120" height="80" fill="#f0fdf4" stroke="#22c55e" rx="8"/>
+  <text x="280" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">2. Data Mapping</text>
+  <text x="280" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#16a34a">Field Configuration</text>
+  <text x="280" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#16a34a">Schema Validation</text>
+  <text x="280" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#16a34a">Custom Attributes</text>
+  
+  <rect x="360" y="560" width="120" height="80" fill="#fffbeb" stroke="#f59e0b" rx="8"/>
+  <text x="420" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d97706">3. Content Sync</text>
+  <text x="420" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Product Retrieval</text>
+  <text x="420" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">AI Processing</text>
+  <text x="420" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">Description Generation</text>
+  
+  <rect x="500" y="560" width="120" height="80" fill="#fdf4ff" stroke="#a855f7" rx="8"/>
+  <text x="560" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9333ea">4. Quality Check</text>
+  <text x="560" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Content Validation</text>
+  <text x="560" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Brand Compliance</text>
+  <text x="560" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a855f7">Error Handling</text>
+  
+  <rect x="640" y="560" width="120" height="80" fill="#fef2f2" stroke="#ef4444" rx="8"/>
+  <text x="700" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">5. Deployment</text>
+  <text x="700" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Batch Updates</text>
+  <text x="700" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Live Publishing</text>
+  <text x="700" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ef4444">Status Monitoring</text>
+  
+  <rect x="780" y="560" width="120" height="80" fill="#f8fafc" stroke="#64748b" rx="8"/>
+  <text x="840" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">6. Monitoring</text>
+  <text x="840" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Performance Metrics</text>
+  <text x="840" y="608" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Error Tracking</text>
+  <text x="840" y="621" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">Usage Analytics</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+    <marker id="bidirectional" markerWidth="10" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+      <polygon points="10 0, 0 3.5, 10 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <!-- API connections -->
+  <line x1="500" y1="310" x2="125" y2="380" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="310" x2="295" y2="380" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="310" x2="705" y2="380" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="310" x2="875" y2="380" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Core system to API -->
+  <line x1="500" y1="220" x2="500" y2="250" stroke="#64748b" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Process flow arrows -->
+  <line x1="200" y1="600" x2="220" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="340" y1="600" x2="360" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="480" y1="600" x2="500" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="620" y1="600" x2="640" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="760" y1="600" x2="780" y2="600" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Data flow indicators -->
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b" transform="rotate(-25 200 350)">
+    Product Data
+  </text>
+  <text x="350" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b" transform="rotate(-15 350 350)">
+    Catalog Sync
+  </text>
+  <text x="650" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b" transform="rotate(15 650 350)">
+    Bulk Updates
+  </text>
+  <text x="800" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b" transform="rotate(25 800 350)">
+    Real-time Sync
+  </text>
+  
+  <!-- Additional CMS Options -->
+  <rect x="390" y="380" width="220" height="100" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="500" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#475569">
+    Custom CMS Integration
+  </text>
+  <text x="500" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+    • RESTful API Support
+  </text>
+  <text x="500" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+    • GraphQL Compatibility
+  </text>
+  <text x="500" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+    • Webhook Configuration
+  </text>
+  <text x="500" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">
+    • SDK & Documentation
+  </text>
+</svg>

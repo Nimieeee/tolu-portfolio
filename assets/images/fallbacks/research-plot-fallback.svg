@@ -1,0 +1,12 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  <rect x="50" y="50" width="300" height="200" fill="white" stroke="#10b981" stroke-width="2" stroke-dasharray="8,4" rx="12"/>
+  <circle cx="200" cy="120" r="25" fill="#10b981" opacity="0.1"/>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">📊</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">
+    Research Plot
+  </text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">
+    Content not available
+  </text>
+</svg>

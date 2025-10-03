@@ -1,0 +1,9 @@
+{
+  "version": 1759233460,
+  "files": {
+    "css": "dist/css/styles.min.css",
+    "js": "dist/js/scripts.min.js",
+    "critical_css": "dist/css/critical.min.css"
+  },
+  "generated": "2025-09-30T12:57:40.519978"
+}

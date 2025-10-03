@@ -1,0 +1,120 @@
+{
+  "skills": [
+    {
+      "category": "Project Management",
+      "skills": [
+        {
+          "name": "Agile/Scrum",
+          "proficiency": 5,
+          "yearsExperience": 8
+        },
+        {
+          "name": "Risk Management",
+          "proficiency": 4,
+          "yearsExperience": 6
+        },
+        {
+          "name": "Stakeholder Management",
+          "proficiency": 5,
+          "yearsExperience": 7
+        },
+        {
+          "name": "Budget Planning",
+          "proficiency": 4,
+          "yearsExperience": 5
+        }
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "skills": [
+        {
+          "name": "Project Management Tools",
+          "proficiency": 5,
+          "yearsExperience": 8
+        },
+        {
+          "name": "Data Analysis",
+          "proficiency": 4,
+          "yearsExperience": 4
+        },
+        {
+          "name": "Process Optimization",
+          "proficiency": 4,
+          "yearsExperience": 6
+        },
+        {
+          "name": "Quality Assurance",
+          "proficiency": 4,
+          "yearsExperience": 5
+        }
+      ]
+    },
+    {
+      "category": "Leadership",
+      "skills": [
+        {
+          "name": "Team Leadership",
+          "proficiency": 5,
+          "yearsExperience": 7
+        },
+        {
+          "name": "Cross-functional Collaboration",
+          "proficiency": 5,
+          "yearsExperience": 8
+        },
+        {
+          "name": "Change Management",
+          "proficiency": 4,
+          "yearsExperience": 5
+        },
+        {
+          "name": "Strategic Planning",
+          "proficiency": 4,
+          "yearsExperience": 4
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechCorp Solutions",
+      "position": "Senior Project Manager",
+      "startDate": "2021-03",
+      "endDate": "Present",
+      "description": "Leading digital transformation initiatives and managing cross-functional teams to deliver complex software projects.",
+      "achievements": [
+        "Successfully delivered 15+ projects worth $2M+ in total value",
+        "Reduced project delivery time by 30% through process optimization",
+        "Led a team of 25+ professionals across multiple departments",
+        "Implemented Agile methodologies resulting in 40% improvement in team productivity"
+      ]
+    },
+    {
+      "company": "InnovateTech Inc.",
+      "position": "Project Manager",
+      "startDate": "2019-01",
+      "endDate": "2021-02",
+      "description": "Managed software development projects and coordinated with stakeholders to ensure successful project delivery.",
+      "achievements": [
+        "Delivered 10+ mobile and web applications on time and within budget",
+        "Established project management best practices adopted company-wide",
+        "Improved client satisfaction scores by 25%",
+        "Mentored 5 junior project coordinators"
+      ]
+    },
+    {
+      "company": "StartupVenture Co.",
+      "position": "Project Coordinator",
+      "startDate": "2017-06",
+      "endDate": "2018-12",
+      "description": "Coordinated project activities and supported senior project managers in delivering client projects.",
+      "achievements": [
+        "Supported delivery of 8 successful product launches",
+        "Streamlined project documentation processes",
+        "Maintained 98% on-time delivery rate",
+        "Developed project tracking systems still in use today"
+      ]
+    }
+  ]
+}

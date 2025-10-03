@@ -1,0 +1,21 @@
+{
+  "timestamp": 1759251535.959153,
+  "date": "2025-09-30 17:58:55",
+  "optimizations": {
+    "minification": true,
+    "service_worker": true,
+    "fallback_images": true,
+    "combined_files": true
+  },
+  "file_counts": {
+    "css_minified": 4,
+    "js_minified": 11,
+    "fallback_images": 4
+  },
+  "file_sizes": {
+    "total_original": 310097,
+    "total_minified": 229177,
+    "savings": 80920,
+    "savings_percent": 26.095060577819197
+  }
+}

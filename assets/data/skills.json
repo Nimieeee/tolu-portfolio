@@ -1,0 +1,118 @@
+{
+  "aiMlEngineering": {
+    "category": "AI/ML Engineering",
+    "skills": [
+      {
+        "name": "Python",
+        "proficiency": 5,
+        "yearsExperience": 4
+      },
+      {
+        "name": "PyTorch",
+        "proficiency": 4,
+        "yearsExperience": 3
+      },
+      {
+        "name": "ML Pipelines",
+        "proficiency": 4,
+        "yearsExperience": 3
+      },
+      {
+        "name": "RAG Systems",
+        "proficiency": 4,
+        "yearsExperience": 2
+      },
+      {
+        "name": "MLOps",
+        "proficiency": 3,
+        "yearsExperience": 2
+      },
+      {
+        "name": "Natural Language Processing",
+        "proficiency": 4,
+        "yearsExperience": 3
+      },
+      {
+        "name": "Deep Learning",
+        "proficiency": 4,
+        "yearsExperience": 3
+      }
+    ]
+  },
+  "productManagement": {
+    "category": "Product Management",
+    "skills": [
+      {
+        "name": "PRDs",
+        "proficiency": 4,
+        "yearsExperience": 2
+      },
+      {
+        "name": "Roadmaps",
+        "proficiency": 4,
+        "yearsExperience": 2
+      },
+      {
+        "name": "Stakeholder Management",
+        "proficiency": 4,
+        "yearsExperience": 3
+      },
+      {
+        "name": "KPIs",
+        "proficiency": 4,
+        "yearsExperience": 2
+      },
+      {
+        "name": "User Research",
+        "proficiency": 3,
+        "yearsExperience": 2
+      },
+      {
+        "name": "AI Product Strategy",
+        "proficiency": 4,
+        "yearsExperience": 2
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "AI Solutions Company",
+      "position": "AI Product Manager & ML Engineer",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "description": "Leading AI product development and ML engineering for innovative AI solutions, focusing on RAG systems and intelligent automation.",
+      "achievements": [
+        "Developed AutoDescribe RAG system reducing content creation time by 75%",
+        "Built PharmGPT chatbot achieving 92% accuracy in specialized queries",
+        "Led cross-functional teams to deliver 5+ AI products serving 10,000+ users",
+        "Established ML pipeline architecture adopted across multiple product lines"
+      ]
+    },
+    {
+      "company": "Tech Innovation Lab",
+      "position": "ML Engineer & Product Developer",
+      "startDate": "2020-06",
+      "endDate": "2021-12",
+      "description": "Developed machine learning solutions and AI products, focusing on natural language processing and intelligent automation systems.",
+      "achievements": [
+        "Built 3 production ML models with 90%+ accuracy for text processing",
+
+        "Implemented MLOps practices reducing model deployment time by 60%",
+        "Collaborated with 4 product teams to integrate AI capabilities"
+      ]
+    },
+    {
+      "company": "Software Development Company",
+      "position": "Junior ML Engineer",
+      "startDate": "2019-01",
+      "endDate": "2020-05",
+      "description": "Supported AI product development and implemented machine learning solutions for various business applications.",
+      "achievements": [
+        "Contributed to development of 8 AI-powered features across product suite",
+        "Implemented ML pipelines for data processing and model training",
+        "Participated in 2 successful product launches with AI capabilities",
+        "Mentored 3 junior developers in ML best practices"
+      ]
+    }
+  ]
+}

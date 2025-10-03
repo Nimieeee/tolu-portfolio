@@ -1,0 +1,55 @@
+{
+  "publications": [
+    {
+      "id": "rag-systems-blog",
+      "title": "Implementing RAG Systems: Lessons from Building Production AI Applications",
+      "type": "technical-article",
+      "description": "Technical article discussing practical implementation of Retrieval-Augmented Generation systems in production environments.",
+      "publishedDate": "2024-02-20",
+      "url": "https://medium.com/@toluwanimi/rag-systems-implementation",
+      "tags": ["RAG", "AI Engineering", "Technical Implementation", "NLP"],
+      "featured": true
+    },
+    {
+      "id": "ai-product-management-linkedin",
+      "title": "The Future of AI Product Management: Bridging Technical Excellence and User Needs",
+      "type": "linkedin-article",
+      "description": "LinkedIn article exploring the evolving role of AI product managers and strategies for successful AI product development.",
+      "publishedDate": "2024-01-10",
+      "url": "https://linkedin.com/pulse/future-ai-product-management-toluwanimi-odunewu",
+      "tags": ["AI Product Management", "Product Strategy", "Leadership", "Innovation"],
+      "featured": true
+    },
+
+    {
+      "id": "specialized-llm-blog",
+      "title": "Building Specialized AI Assistants: A Technical Deep-Dive",
+      "type": "technical-article",
+      "description": "Technical deep-dive into developing specialized AI assistants, covering model fine-tuning, data curation, and deployment strategies.",
+      "publishedDate": "2023-09-15",
+      "url": "https://towardsdatascience.com/building-specialized-ai-assistants",
+      "tags": ["LLM Fine-tuning", "AI Engineering", "Technical Development", "NLP"],
+      "featured": false
+    },
+    {
+      "id": "ai-product-ethics-linkedin",
+      "title": "Ethical AI Product Development: A Product Manager's Guide",
+      "type": "linkedin-article",
+      "description": "Discussion of ethical challenges and best practices for AI product managers developing responsible AI solutions.",
+      "publishedDate": "2023-08-22",
+      "url": "https://linkedin.com/pulse/ethical-ai-product-development-toluwanimi-odunewu",
+      "tags": ["AI Ethics", "Product Management", "Responsible AI", "AI Strategy"],
+      "featured": false
+    },
+    {
+      "id": "mlops-best-practices-blog",
+      "title": "MLOps Best Practices: From Development to Production",
+      "type": "technical-article",
+      "description": "Comprehensive guide to MLOps practices, covering model versioning, deployment strategies, and monitoring in production.",
+      "publishedDate": "2023-07-10",
+      "url": "https://medium.com/@toluwanimi/mlops-best-practices-guide",
+      "tags": ["MLOps", "AI Engineering", "Production ML", "DevOps"],
+      "featured": false
+    }
+  ]
+}

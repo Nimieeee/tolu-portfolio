@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": "pharmgpt",
+      "title": "PharmGPT",
+      "category": "ml-engineering",
+      "description": "Your Advanced AI Pharmacology Assistant - An intelligent chatbot providing comprehensive drug information, mechanism of action analysis, and clinical guidance. Features conversation management, document processing, and both fast and detailed response modes for pharmaceutical queries.",
+      "technicalApproach": "Built using advanced language models with specialized pharmaceutical knowledge base, implementing retrieval-augmented generation for accurate drug information, mechanism analysis, and clinical recommendations with real-time query processing.",
+      "architecture": "Streamlit-based web application with conversation state management, document upload capabilities, and multi-modal response system supporting both quick answers and detailed pharmaceutical analysis with persistent chat history.",
+      "deployment": "Deployed on Streamlit Cloud with optimized performance for real-time pharmaceutical queries and document processing capabilities, ensuring fast response times and reliable uptime.",
+      "technologies": [
+        "LLM",
+        "RAG",
+        "Streamlit",
+        "Python",
+        "AI/ML",
+        "Natural Language Processing",
+        "Document Processing",
+        "Conversation Management",
+        "Streamlit Cloud"
+      ],
+      "artifacts": {
+        "repository": "https://github.com/Nimieeee/phhh",
+        "demo": "https://ptt-ai.streamlit.app/",
+        "architectureDiagram": "assets/images/projects/pharmgpt/architecture.svg",
+        "codeSnippets": [
+          "assets/images/projects/pharmgpt/streamlit-code.svg",
+          "assets/images/projects/pharmgpt/ai-processing.svg"
+        ]
+      },
+      "images": [
+        "image.png"
+      ],
+      "featured": true
+    }
+  ]
+}

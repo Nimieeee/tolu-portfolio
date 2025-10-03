@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "id": "autodescribe",
+      "title": "AutoDescribe",
+      "category": "ai-product",
+      "description": "RAG + human-in-the-loop product description generator that automates content creation while maintaining quality control.",
+      "problemStatement": "E-commerce platforms struggle with creating consistent, high-quality product descriptions at scale, leading to poor user experience and reduced conversion rates.",
+      "solutionApproach": "Developed an AI-powered system combining Retrieval-Augmented Generation (RAG) with human-in-the-loop validation to generate contextually relevant product descriptions while ensuring quality and brand consistency.",
+      "outcomes": [
+        "Reduced content creation time by 75%",
+        "Improved product description consistency by 90%",
+        "Increased conversion rates by 23%",
+        "Successfully processed 10,000+ product descriptions"
+      ],
+      "role": "AI Product Manager & Technical Lead",
+      "impact": "Transformed content creation workflow for multiple e-commerce clients, enabling scalable product catalog management.",
+      "useCase": "E-commerce platforms with large product catalogs need to generate consistent, high-quality product descriptions at scale. AutoDescribe enables content teams to maintain brand voice while dramatically reducing manual effort through AI-powered generation with human oversight.",
+      "performanceMetrics": [
+        {
+          "metric": "Content Creation Speed",
+          "value": "75%",
+          "description": "Reduction in time required to create product descriptions"
+        },
+        {
+          "metric": "Quality Consistency",
+          "value": "90%",
+          "description": "Improvement in description consistency across product catalog"
+        },
+        {
+          "metric": "Conversion Rate Impact",
+          "value": "23%",
+          "description": "Increase in product page conversion rates"
+        },
+        {
+          "metric": "Scale Achievement",
+          "value": "10,000+",
+          "description": "Product descriptions successfully processed"
+        }
+      ],
+      "technologies": ["RAG", "Python", "OpenAI API", "Human-in-the-loop", "NLP", "Vector Databases"],
+      "artifacts": {
+        "prd": "https://github.com/toluwanimi/autodescribe-prd",
+        "prototype": "https://autodescribe-demo.streamlit.app",
+        "demo": "https://autodescribe-demo.streamlit.app",
+        "wireframes": [
+          "assets/images/projects/autodescribe/wireframe-1.svg",
+          "assets/images/projects/autodescribe/wireframe-2.svg"
+        ]
+      },
+      "images": [
+        "assets/images/projects/autodescribe/dashboard.svg",
+        "assets/images/projects/autodescribe/workflow.svg"
+      ],
+      "featured": true
+    }
+  ]
+}

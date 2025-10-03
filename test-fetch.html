@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Fetch</title>
+</head>
+<body>
+    <h1>Testing File Fetch</h1>
+    <div id="results"></div>
+
+    <script>
+        async function testFetch() {
+            const results = document.getElementById('results');
+            const files = [
+                'assets/data/ai-product-projects.json',
+                'assets/data/ml-engineering-projects.json',
+                'assets/data/research-projects.json'
+            ];
+
+            for (const file of files) {
+                try {
+                    const response = await fetch(file);
+                    const data = await response.json();
+                    results.innerHTML += `<p style="color: green;">✓ ${file}: ${data.projects?.length || 0} projects</p>`;
+                } catch (error) {
+                    results.innerHTML += `<p style="color: red;">✗ ${file}: ${error.message}</p>`;
+                }
+            }
+        }
+
+        testFetch();
+    </script>
+</body>
+</html>

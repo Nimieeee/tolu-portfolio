@@ -1,0 +1,32 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#bgGrad)"/>
+  <rect x="40" y="40" width="320" height="220" fill="white" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8,4" rx="12"/>
+  
+  <!-- Icon -->
+  <circle cx="200" cy="120" r="30" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="185" y="105" width="30" height="20" fill="#94a3b8" rx="2"/>
+  <circle cx="190" cy="110" r="2" fill="white"/>
+  <circle cx="195" cy="110" r="2" fill="white"/>
+  <circle cx="205" cy="110" r="2" fill="white"/>
+  <circle cx="210" cy="110" r="2" fill="white"/>
+  <rect x="188" y="118" width="24" height="2" fill="#64748b" rx="1"/>
+  
+  <!-- Text -->
+  <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#475569">
+    Image Not Available
+  </text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#64748b">
+    The requested image could not be loaded
+  </text>
+  
+  <!-- Decorative elements -->
+  <rect x="160" y="230" width="80" height="4" fill="#e2e8f0" rx="2"/>
+  <rect x="170" y="240" width="60" height="3" fill="#f1f5f9" rx="1.5"/>
+</svg>

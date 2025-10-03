@@ -1,0 +1,257 @@
+<svg width="1000" height="800" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stepGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stepGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stepGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stepGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    AutoDescribe User Workflow
+  </text>
+  <text x="500" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#64748b">
+    End-to-end process for AI-powered product description generation
+  </text>
+  
+  <!-- Step 1: Input -->
+  <rect x="50" y="100" width="200" height="150" rx="15" fill="url(#stepGrad1)" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="150" cy="130" r="15" fill="white"/>
+  <text x="150" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">1</text>
+  
+  <text x="150" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    Product Input
+  </text>
+  <text x="150" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Upload product images
+  </text>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Enter basic details
+  </text>
+  <text x="150" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Select category/type
+  </text>
+  <text x="150" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Choose target audience
+  </text>
+  
+  <!-- User Interface Mockup for Step 1 -->
+  <rect x="70" y="270" width="160" height="100" fill="white" stroke="#e5e7eb" rx="8"/>
+  <rect x="80" y="280" width="140" height="15" fill="#f3f4f6" rx="3"/>
+  <text x="150" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#6b7280">Product Name</text>
+  
+  <rect x="80" y="300" width="60" height="40" fill="#f3f4f6" rx="3"/>
+  <text x="110" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">Image Upload</text>
+  
+  <rect x="150" y="300" width="60" height="15" fill="#f3f4f6" rx="3"/>
+  <text x="180" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">Category</text>
+  
+  <rect x="150" y="320" width="60" height="15" fill="#3b82f6" rx="3"/>
+  <text x="180" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">Generate</text>
+  
+  <!-- Step 2: Processing -->
+  <rect x="300" y="100" width="200" height="150" rx="15" fill="url(#stepGrad2)" stroke="#047857" stroke-width="2"/>
+  <circle cx="400" cy="130" r="15" fill="white"/>
+  <text x="400" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#047857">2</text>
+  
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    AI Processing
+  </text>
+  <text x="400" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Image analysis (CV)
+  </text>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Feature extraction
+  </text>
+  <text x="400" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Context understanding
+  </text>
+  <text x="400" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Language generation
+  </text>
+  
+  <!-- Processing Visualization -->
+  <rect x="320" y="270" width="160" height="100" fill="white" stroke="#e5e7eb" rx="8"/>
+  <text x="400" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#047857">AI Engine Processing</text>
+  
+  <!-- Processing steps -->
+  <rect x="330" y="295" width="30" height="8" fill="#10b981" rx="2"/>
+  <text x="370" y="302" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">Vision AI</text>
+  
+  <rect x="330" y="310" width="40" height="8" fill="#10b981" rx="2"/>
+  <text x="380" y="317" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">NLP Engine</text>
+  
+  <rect x="330" y="325" width="35" height="8" fill="#10b981" rx="2"/>
+  <text x="375" y="332" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">Content Gen</text>
+  
+  <rect x="330" y="340" width="45" height="8" fill="#f59e0b" rx="2"/>
+  <text x="385" y="347" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">Optimization</text>
+  
+  <!-- Progress indicator -->
+  <text x="400" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#10b981">Processing... 78%</text>
+  
+  <!-- Step 3: Review & Edit -->
+  <rect x="550" y="100" width="200" height="150" rx="15" fill="url(#stepGrad3)" stroke="#d97706" stroke-width="2"/>
+  <circle cx="650" cy="130" r="15" fill="white"/>
+  <text x="650" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">3</text>
+  
+  <text x="650" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    Review & Edit
+  </text>
+  <text x="650" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Generated content preview
+  </text>
+  <text x="650" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Manual editing tools
+  </text>
+  <text x="650" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Style adjustments
+  </text>
+  <text x="650" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Tone customization
+  </text>
+  
+  <!-- Editor Interface Mockup -->
+  <rect x="570" y="270" width="160" height="100" fill="white" stroke="#e5e7eb" rx="8"/>
+  <text x="650" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#d97706">Content Editor</text>
+  
+  <rect x="580" y="295" width="140" height="40" fill="#fef3c7" stroke="#f59e0b" rx="3"/>
+  <text x="585" y="305" font-family="Arial, sans-serif" font-size="7" fill="#92400e">Generated Description:</text>
+  <text x="585" y="315" font-family="Arial, sans-serif" font-size="6" fill="#92400e">This premium wireless headphone</text>
+  <text x="585" y="323" font-family="Arial, sans-serif" font-size="6" fill="#92400e">delivers exceptional sound quality...</text>
+  <text x="585" y="331" font-family="Arial, sans-serif" font-size="6" fill="#92400e">[Edit] [Regenerate] [Style: Professional]</text>
+  
+  <rect x="580" y="345" width="60" height="15" fill="#f59e0b" rx="3"/>
+  <text x="610" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">Save Draft</text>
+  
+  <rect x="650" y="345" width="60" height="15" fill="#10b981" rx="3"/>
+  <text x="680" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">Approve</text>
+  
+  <!-- Step 4: Export -->
+  <rect x="800" y="100" width="150" height="150" rx="15" fill="url(#stepGrad4)" stroke="#7c3aed" stroke-width="2"/>
+  <circle cx="875" cy="130" r="15" fill="white"/>
+  <text x="875" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">4</text>
+  
+  <text x="875" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    Export & Use
+  </text>
+  <text x="875" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Multiple formats
+  </text>
+  <text x="875" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • API integration
+  </text>
+  <text x="875" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • Bulk export
+  </text>
+  <text x="875" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    • CMS sync
+  </text>
+  
+  <!-- Export Options -->
+  <rect x="815" y="270" width="120" height="100" fill="white" stroke="#e5e7eb" rx="8"/>
+  <text x="875" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7c3aed">Export Options</text>
+  
+  <rect x="825" y="295" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="875" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">📄 CSV/Excel</text>
+  
+  <rect x="825" y="312" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="875" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">🔗 API Endpoint</text>
+  
+  <rect x="825" y="329" width="100" height="12" fill="#f3f4f6" rx="2"/>
+  <text x="875" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#6b7280">🛒 Shopify Sync</text>
+  
+  <rect x="825" y="346" width="100" height="12" fill="#8b5cf6" rx="2"/>
+  <text x="875" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="white">Export All</text>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <line x1="250" y1="175" x2="300" y2="175" stroke="#64748b" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="175" x2="550" y2="175" stroke="#64748b" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="750" y1="175" x2="800" y2="175" stroke="#64748b" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- User Journey Section -->
+  <rect x="50" y="420" width="900" height="200" fill="white" stroke="#e5e7eb" stroke-width="2" rx="15"/>
+  <text x="500" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">
+    User Journey & Experience
+  </text>
+  
+  <!-- Journey Steps -->
+  <rect x="80" y="470" width="180" height="120" fill="#f8fafc" stroke="#e2e8f0" rx="8"/>
+  <text x="170" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">User Input</text>
+  <text x="90" y="510" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Simple drag & drop interface</text>
+  <text x="90" y="525" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Guided form with tooltips</text>
+  <text x="90" y="540" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Real-time validation</text>
+  <text x="90" y="555" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Progress indicators</text>
+  <text x="170" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#10b981">⏱️ ~2 minutes</text>
+  
+  <rect x="280" y="470" width="180" height="120" fill="#f0fdf4" stroke="#bbf7d0" rx="8"/>
+  <text x="370" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">AI Processing</text>
+  <text x="290" y="510" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Real-time progress updates</text>
+  <text x="290" y="525" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Processing status indicators</text>
+  <text x="290" y="540" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Estimated completion time</text>
+  <text x="290" y="555" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Background processing</text>
+  <text x="370" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#10b981">⏱️ ~30 seconds</text>
+  
+  <rect x="480" y="470" width="180" height="120" fill="#fffbeb" stroke="#fde68a" rx="8"/>
+  <text x="570" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Review & Edit</text>
+  <text x="490" y="510" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Rich text editor with formatting</text>
+  <text x="490" y="525" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Tone and style adjustments</text>
+  <text x="490" y="540" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Version history & rollback</text>
+  <text x="490" y="555" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Collaborative editing</text>
+  <text x="570" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#f59e0b">⏱️ ~5 minutes</text>
+  
+  <rect x="680" y="470" width="180" height="120" fill="#faf5ff" stroke="#ddd6fe" rx="8"/>
+  <text x="770" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Export & Deploy</text>
+  <text x="690" y="510" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• One-click export to platforms</text>
+  <text x="690" y="525" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Automated CMS integration</text>
+  <text x="690" y="540" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Bulk operations support</text>
+  <text x="690" y="555" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• Scheduling & automation</text>
+  <text x="770" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#8b5cf6">⏱️ ~1 minute</text>
+  
+  <!-- Key Benefits -->
+  <rect x="50" y="650" width="900" height="120" fill="#1e293b" rx="15"/>
+  <text x="500" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    Key Benefits & Value Proposition
+  </text>
+  
+  <text x="150" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3b82f6">90% Time Savings</text>
+  <text x="150" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">From hours to minutes</text>
+  <text x="150" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">per product description</text>
+  
+  <text x="350" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#10b981">Consistent Quality</text>
+  <text x="350" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">AI-powered content</text>
+  <text x="350" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">maintains brand voice</text>
+  
+  <text x="550" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f59e0b">Scalable Solution</text>
+  <text x="550" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Handle thousands of</text>
+  <text x="550" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">products effortlessly</text>
+  
+  <text x="750" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8b5cf6">Easy Integration</text>
+  <text x="750" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Works with existing</text>
+  <text x="750" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">e-commerce platforms</text>
+  
+  <text x="850" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ef4444">ROI Focused</text>
+  <text x="850" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">Measurable impact</text>
+  <text x="850" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94a3b8">on conversion rates</text>
+</svg>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toluwanimi Odunewu - AI/ML Engineering Projects. PharmGPT chatbot and technical ML implementations.">
+    <meta name="keywords" content="AI ML engineering, RAG pipelines, machine learning, PyTorch, MLOps, technical architecture, Toluwanimi Odunewu">
+    <meta name="author" content="Toluwanimi Odunewu">
+    <title>AI/ML Engineering Projects - Toluwanimi Odunewu</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav id="main-nav" class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <a href="index.html" class="nav-logo">Portfolio</a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ai-engineering.html" class="nav-link active">AI Engineering Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product-management.html" class="nav-link">AI Product Management Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile Hamburger Menu -->
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header py-20 md:py-24 lg:py-32">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+                        AI/ML Engineering Projects
+                    </h1>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Technical implementations showcasing expertise in machine learning pipelines, 
+                        RAG systems, deep learning architectures, and MLOps practices.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="projects-section py-16">
+            <div class="container">
+                <div id="ai-engineering-projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" role="region" aria-label="AI Engineering project cards">
+                    <!-- Projects will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Detail Modal -->
+        <div id="project-modal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+            <div class="modal-overlay" aria-hidden="true"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <button class="modal-close" aria-label="Close modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-content-body">
+                        <!-- Project details will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/ai-engineering.js"></script>
+</body>
+</html>

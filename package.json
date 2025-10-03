@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Professional portfolio website with performance optimizations",
+  "main": "index.html",
+  "scripts": {
+    "build": "python3 build-tools/build.py",
+    "minify": "node build-tools/minify.js",
+    "critical-css": "node build-tools/critical-css.js",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000 --directory dist",
+    "clean": "rm -rf dist",
+    "optimize": "npm run clean && npm run build",
+    "test-performance": "python3 test-performance.py"
+  },
+  "keywords": [
+    "portfolio",
+    "project-management",
+    "performance",
+    "optimization",
+    "static-site"
+  ],
+  "author": "Portfolio Owner",
+  "license": "MIT",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

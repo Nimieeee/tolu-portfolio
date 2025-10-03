@@ -1,0 +1,152 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f9fafb"/>
+  <rect width="1200" height="800" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Browser Frame -->
+  <rect x="50" y="50" width="1100" height="700" rx="10" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  
+  <!-- Browser Header -->
+  <rect x="50" y="50" width="1100" height="40" rx="10" fill="#f3f4f6"/>
+  <rect x="50" y="80" width="1100" height="10" fill="#f3f4f6"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="70" cy="70" r="6" fill="#ef4444"/>
+  <circle cx="90" cy="70" r="6" fill="#f59e0b"/>
+  <circle cx="110" cy="70" r="6" fill="#10b981"/>
+  
+  <!-- URL Bar -->
+  <rect x="150" y="60" width="400" height="20" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="160" y="73" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">https://autodescribe.ai/dashboard</text>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">
+    AutoDescribe Dashboard Wireframe
+  </text>
+  
+  <!-- Header Navigation -->
+  <rect x="70" y="110" width="1060" height="60" fill="#ffffff" stroke="#e5e7eb"/>
+  
+  <!-- Logo Area -->
+  <rect x="90" y="125" width="120" height="30" fill="#3b82f6" rx="5"/>
+  <text x="150" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AutoDescribe</text>
+  
+  <!-- Navigation Menu -->
+  <rect x="250" y="130" width="60" height="20" fill="#f3f4f6" rx="3"/>
+  <text x="280" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Dashboard</text>
+  
+  <rect x="330" y="130" width="60" height="20" fill="#f3f4f6" rx="3"/>
+  <text x="360" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Projects</text>
+  
+  <rect x="410" y="130" width="60" height="20" fill="#f3f4f6" rx="3"/>
+  <text x="440" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Templates</text>
+  
+  <rect x="490" y="130" width="60" height="20" fill="#f3f4f6" rx="3"/>
+  <text x="520" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Analytics</text>
+  
+  <!-- User Menu -->
+  <rect x="1000" y="125" width="100" height="30" fill="#f3f4f6" rx="15"/>
+  <circle cx="1020" cy="140" r="10" fill="#d1d5db"/>
+  <text x="1040" y="145" font-family="Arial, sans-serif" font-size="10" fill="#374151">John Doe</text>
+  
+  <!-- Main Content Area -->
+  <rect x="70" y="190" width="1060" height="540" fill="#ffffff" stroke="#e5e7eb"/>
+  
+  <!-- Welcome Section -->
+  <rect x="90" y="210" width="1020" height="80" fill="#f8fafc" rx="8"/>
+  <text x="110" y="235" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">Welcome back, John!</text>
+  <text x="110" y="255" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Generate compelling product descriptions with AI-powered content creation</text>
+  
+  <!-- Quick Action Button -->
+  <rect x="900" y="225" width="120" height="35" fill="#3b82f6" rx="6"/>
+  <text x="960" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">+ New Project</text>
+  
+  <!-- Stats Cards -->
+  <rect x="90" y="310" width="240" height="100" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="110" y="335" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Total Projects</text>
+  <text x="110" y="365" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#3b82f6">24</text>
+  <text x="110" y="385" font-family="Arial, sans-serif" font-size="10" fill="#10b981">+12% this month</text>
+  
+  <rect x="350" y="310" width="240" height="100" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="370" y="335" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Descriptions Generated</text>
+  <text x="370" y="365" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10b981">1,247</text>
+  <text x="370" y="385" font-family="Arial, sans-serif" font-size="10" fill="#10b981">+28% this month</text>
+  
+  <rect x="610" y="310" width="240" height="100" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="630" y="335" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">API Calls</text>
+  <text x="630" y="365" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f59e0b">8,934</text>
+  <text x="630" y="385" font-family="Arial, sans-serif" font-size="10" fill="#10b981">+15% this month</text>
+  
+  <rect x="870" y="310" width="240" height="100" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="890" y="335" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Success Rate</text>
+  <text x="890" y="365" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#10b981">98.2%</text>
+  <text x="890" y="385" font-family="Arial, sans-serif" font-size="10" fill="#10b981">+2.1% this month</text>
+  
+  <!-- Recent Projects Section -->
+  <rect x="90" y="430" width="520" height="280" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="110" y="455" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Recent Projects</text>
+  
+  <!-- Project List Items -->
+  <rect x="110" y="470" width="480" height="40" fill="#f9fafb" rx="4"/>
+  <rect x="120" y="480" width="20" height="20" fill="#3b82f6" rx="2"/>
+  <text x="150" y="492" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1f2937">E-commerce Product Catalog</text>
+  <text x="150" y="505" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Updated 2 hours ago • 156 descriptions</text>
+  <text x="550" y="492" font-family="Arial, sans-serif" font-size="9" fill="#10b981">Active</text>
+  
+  <rect x="110" y="520" width="480" height="40" fill="#ffffff" rx="4"/>
+  <rect x="120" y="530" width="20" height="20" fill="#10b981" rx="2"/>
+  <text x="150" y="542" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1f2937">Fashion Brand Descriptions</text>
+  <text x="150" y="555" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Updated 1 day ago • 89 descriptions</text>
+  <text x="550" y="542" font-family="Arial, sans-serif" font-size="9" fill="#3b82f6">Completed</text>
+  
+  <rect x="110" y="570" width="480" height="40" fill="#f9fafb" rx="4"/>
+  <rect x="120" y="580" width="20" height="20" fill="#f59e0b" rx="2"/>
+  <text x="150" y="592" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1f2937">Tech Gadgets Collection</text>
+  <text x="150" y="605" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Updated 3 days ago • 234 descriptions</text>
+  <text x="550" y="592" font-family="Arial, sans-serif" font-size="9" fill="#f59e0b">In Progress</text>
+  
+  <rect x="110" y="620" width="480" height="40" fill="#ffffff" rx="4"/>
+  <rect x="120" y="630" width="20" height="20" fill="#8b5cf6" rx="2"/>
+  <text x="150" y="642" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1f2937">Home & Garden Products</text>
+  <text x="150" y="655" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Updated 1 week ago • 67 descriptions</text>
+  <text x="550" y="642" font-family="Arial, sans-serif" font-size="9" fill="#6b7280">Draft</text>
+  
+  <!-- Quick Actions Panel -->
+  <rect x="630" y="430" width="480" height="280" fill="#ffffff" stroke="#e5e7eb" rx="8"/>
+  <text x="650" y="455" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Quick Actions</text>
+  
+  <!-- Action Buttons -->
+  <rect x="650" y="480" width="200" height="50" fill="#3b82f6" rx="8"/>
+  <text x="750" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Generate Description</text>
+  <text x="750" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#bfdbfe">Create new product content</text>
+  
+  <rect x="870" y="480" width="200" height="50" fill="#10b981" rx="8"/>
+  <text x="970" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Bulk Import</text>
+  <text x="970" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#bbf7d0">Upload product catalog</text>
+  
+  <rect x="650" y="550" width="200" height="50" fill="#f59e0b" rx="8"/>
+  <text x="750" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">Template Library</text>
+  <text x="750" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fde68a">Browse templates</text>
+  
+  <rect x="870" y="550" width="200" height="50" fill="#8b5cf6" rx="8"/>
+  <text x="970" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">API Documentation</text>
+  <text x="970" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#ddd6fe">Integration guide</text>
+  
+  <!-- Recent Activity -->
+  <rect x="650" y="620" width="420" height="70" fill="#f8fafc" rx="6"/>
+  <text x="670" y="640" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Recent Activity</text>
+  <text x="670" y="655" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• Generated 23 descriptions for "Summer Collection"</text>
+  <text x="670" y="670" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• API key regenerated for production environment</text>
+  <text x="670" y="685" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">• New template "Electronics" added to library</text>
+  
+  <!-- Footer -->
+  <rect x="70" y="750" width="1060" height="30" fill="#f3f4f6"/>
+  <text x="90" y="768" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">© 2024 AutoDescribe AI. All rights reserved.</text>
+  <text x="1050" y="768" font-family="Arial, sans-serif" font-size="10" fill="#6b7280">Version 2.1.0</text>
+</svg>

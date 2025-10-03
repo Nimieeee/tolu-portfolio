@@ -1,0 +1,80 @@
+{
+  "artifacts": [
+    {
+      "id": "rag-pipeline-repo",
+      "title": "Production RAG Pipeline",
+      "type": "code-repository",
+      "description": "Complete implementation of RAG pipeline for enterprise applications with documentation and deployment scripts.",
+      "technologies": ["Python", "PyTorch", "Transformers", "Vector Databases", "Docker"],
+      "url": "https://github.com/toluwanimi/production-rag-pipeline",
+      "category": "ml-pipeline"
+    },
+    {
+      "id": "llm-finetuning-colab",
+      "title": "LLM Fine-tuning Notebook",
+      "type": "code-repository",
+      "description": "Google Colab notebook demonstrating specialized LLM fine-tuning process with step-by-step instructions.",
+      "technologies": ["Python", "PyTorch", "Transformers", "Google Colab"],
+      "url": "https://colab.research.google.com/drive/llm-finetuning-notebook",
+      "category": "ml-pipeline"
+    },
+
+    {
+      "id": "ml-architecture-diagram",
+      "title": "ML Pipeline Architecture",
+      "type": "diagram",
+      "description": "Technical architecture diagram for scalable machine learning pipelines in production environments.",
+      "technologies": ["System Architecture", "MLOps", "Cloud Computing"],
+      "images": ["assets/images/diagrams/ml-pipeline-architecture.svg"],
+      "category": "ai-architecture"
+    },
+    {
+      "id": "autodescribe-demo",
+      "title": "AutoDescribe Live Demo",
+      "type": "demo",
+      "description": "Interactive Streamlit demo showcasing AutoDescribe's RAG-powered product description generation.",
+      "technologies": ["Streamlit", "RAG", "OpenAI API"],
+      "url": "https://autodescribe-demo.streamlit.app",
+      "category": "ml-pipeline"
+    },
+    {
+      "id": "specialized-llm-demo",
+      "title": "Specialized LLM Interactive Demo",
+      "type": "demo",
+      "description": "Gradio-based interactive demo showcasing specialized LLM capabilities for domain-specific applications.",
+      "technologies": ["Gradio", "LLM", "Fine-tuning"],
+      "url": "https://specialized-llm-demo.gradio.app",
+      "category": "ml-pipeline"
+    },
+    {
+      "id": "autodescribe-prd",
+      "title": "AutoDescribe Product Requirements Document",
+      "type": "prd",
+      "description": "Comprehensive PRD for AutoDescribe including market analysis, user stories, technical requirements, and success metrics.",
+      "technologies": ["Product Management", "Requirements Analysis"],
+      "url": "https://github.com/toluwanimi/autodescribe-prd/blob/main/PRD.md",
+      "category": "product-doc"
+    },
+    {
+      "id": "autodescribe-wireframes",
+      "title": "AutoDescribe UI Wireframes",
+      "type": "prd",
+      "description": "Detailed wireframes and user interface designs for AutoDescribe product including user flow diagrams.",
+      "technologies": ["UI/UX Design", "Wireframing"],
+      "images": [
+        "assets/images/wireframes/autodescribe-dashboard.svg",
+        "assets/images/wireframes/autodescribe-workflow.svg"
+      ],
+      "category": "product-doc"
+    },
+    {
+      "id": "system-integration-flow",
+      "title": "System Integration Flow Diagram",
+      "type": "diagram",
+      "description": "Technical flow diagram showing AI system integration with various enterprise platforms and APIs.",
+      "technologies": ["System Integration", "API Design"],
+      "images": ["assets/images/diagrams/system-integration-flow.svg"],
+      "category": "ai-architecture"
+    }
+  ]
+}
