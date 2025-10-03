@@ -38,7 +38,7 @@
           "description": "Product descriptions successfully processed"
         }
       ],
-      "technologies": ["RAG", "Python", "OpenAI API", "Human-in-the-loop", "NLP", "Vector Databases"],
+      "technologies": ["LLM", "RAG", "API", "Prompt engineering", "NLP", "Supabase"],
       "artifacts": {
         "prd": "AutoDescribe PRD.docx",
         "prototype": "https://autodescribe.netlify.app/",
