@@ -40,12 +40,13 @@
       ],
       "technologies": ["RAG", "Python", "OpenAI API", "Human-in-the-loop", "NLP", "Vector Databases"],
       "artifacts": {
-        "prd": "https://github.com/toluwanimi/autodescribe-prd",
-        "prototype": "https://autodescribe-demo.streamlit.app",
-        "demo": "https://autodescribe-demo.streamlit.app",
+        "prd": "AutoDescribe PRD.docx",
+        "prototype": "https://autodescribe.netlify.app/",
+        "demo": "https://autodescribe.netlify.app/",
+        "repository": "https://github.com/Nimieeee/AutoDescribe",
         "wireframes": [
-          "assets/images/projects/autodescribe/wireframe-1.svg",
-          "assets/images/projects/autodescribe/wireframe-2.svg"
+          "assets/images/projects/autodescribe/dashboard.svg",
+          "assets/images/projects/autodescribe/workflow.svg"
         ]
       },
       "images": [
