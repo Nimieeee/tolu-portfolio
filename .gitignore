@@ -1,0 +1,35 @@
+# Kiro IDE files
+.kiro/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+*.min.js
+*.min.css
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Test files
+test-*.html
+debug-*.html
+*-test.html
+
+# Temporary files
+*.tmp
+*.temp
