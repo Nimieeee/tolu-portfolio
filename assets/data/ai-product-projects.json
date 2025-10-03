@@ -50,8 +50,8 @@
         ]
       },
       "images": [
-        "assets/images/projects/autodescribe/dashboard.svg",
-        "assets/images/projects/autodescribe/workflow.svg"
+        "assets/images/projects/autodescribe/autodescribe dashboard.png",
+        "assets/images/projects/autodescribe/content generation interface.png"
       ],
       "featured": true
     }
